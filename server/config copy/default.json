@@ -1,4 +1,4 @@
 {
   "mongoURI": "mongodb+srv://<User>:<password>@cluster0.xoipz.mongodb.net/<dbname>?retryWrites=true&w=majority" ,
-  "jwtSecret": "lkjhgfdsa"
+  "jwtSecret": "<anthing random>"
 }
