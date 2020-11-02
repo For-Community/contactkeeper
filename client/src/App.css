@@ -370,8 +370,13 @@ table th {
   margin-right: 10px;
 }
 
+.navbar .fa-github{
+  font-size: 32px;
+}
+
 .navbar ul {
   display: flex;
+  align-items: center;
 }
 
 .navbar a {
