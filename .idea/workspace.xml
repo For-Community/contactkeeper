@@ -19,9 +19,8 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -67,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604421933509</updated>
-      <workItem from="1604421934663" duration="6290000" />
+      <workItem from="1604421934663" duration="6598000" />
     </task>
     <servers />
   </component>
@@ -85,7 +84,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -102,13 +101,17 @@
       <screen x="80" y="27" width="1286" height="741" />
     </state>
     <state x="181" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/80.27.1286.741@80.27.1286.741" timestamp="1604422305247" />
+    <state x="180" y="127" width="1086" height="541" key="DiffContextDialog" timestamp="1604429175027">
+      <screen x="80" y="27" width="1286" height="741" />
+    </state>
+    <state x="180" y="127" width="1086" height="541" key="DiffContextDialog/80.27.1286.741@80.27.1286.741" timestamp="1604429175027" />
     <state x="212" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1604427018106">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
     <state x="212" y="31" width="1022" height="737" key="SettingsEditor/80.27.1286.741@80.27.1286.741" timestamp="1604427018106" />
-    <state x="504" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604422203769">
+    <state x="504" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604429175013">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
-    <state x="504" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/80.27.1286.741@80.27.1286.741" timestamp="1604422203769" />
+    <state x="504" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/80.27.1286.741@80.27.1286.741" timestamp="1604429175013" />
   </component>
 </project>
