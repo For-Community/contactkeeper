@@ -1,6 +1,5 @@
 import React, { useContext, Fragment } from "react";
 import ContactContext from "../../context/contact/contactContext";
-import PropTypes from 'prop-types'
 
 
 import ContactItem from "./ContactItem";
@@ -16,9 +15,5 @@ const Contacts = () => {
     </Fragment>
   );
 };
-
-ContactItem.propTypes = {
-  contact: PropTypes.object.isRequired
-}
 
 export default Contacts;
