@@ -8,6 +8,7 @@ import {
   CLEAR_FILTER,
 } from "../types";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (state, action) => {
   switch (action.type) {
     case ADD_CONTACT:
@@ -20,7 +21,7 @@ export default (state, action) => {
       return {
         ...state,
         contacts: state.contacts.filter(
-          (contact) => contact.id != action.payload
+          (contact) => contact.id !== action.payload
         ),
       };
 

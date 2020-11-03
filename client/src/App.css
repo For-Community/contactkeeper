@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 /* Global Styles */
 :root {
@@ -16,7 +18,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -368,6 +370,10 @@ table th {
 
 .navbar i{
   margin-right: 10px;
+}
+
+.navbar h1{
+  font-family: 'Fondamento', cursive;
 }
 
 .navbar .fa-github{

@@ -22,7 +22,7 @@ const ContactState = (props) => {
         name: "Stephin reji",
         email: "mail@stephinreji.me",
         phone: "8920788383",
-        type: "personal",
+        type: "professional",
       },
       {
         id: 2,
@@ -36,7 +36,7 @@ const ContactState = (props) => {
         name: "Sheeja reji",
         email: "mail@sheejareji.me",
         phone: "9968750466",
-        type: "professional",
+        type: "personal",
       },
     ],
   };

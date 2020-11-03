@@ -39,7 +39,7 @@ const ContactItem = ({ contact }) => {
       </ul>
       <p>
           <button className="btn btn-dark btn-sm">Edit</button>
-          <button className="btn btn-danger btn-sm" onCLick= {onDelete}>Delete</button>
+          <button className="btn btn-danger btn-sm" onClick= {onDelete}>Delete</button>
       </p>
     </div>
   );
