@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="153c0b75-6286-47e7-b27d-5258f8a86b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/context/contact/ContactState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/contact/ContactState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/contact/contactReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/contact/contactReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604421933509</updated>
-      <workItem from="1604421934663" duration="6598000" />
+      <workItem from="1604421934663" duration="7831000" />
     </task>
     <servers />
   </component>
@@ -78,19 +62,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -101,10 +73,10 @@
       <screen x="80" y="27" width="1286" height="741" />
     </state>
     <state x="181" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/80.27.1286.741@80.27.1286.741" timestamp="1604422305247" />
-    <state x="180" y="127" width="1086" height="541" key="DiffContextDialog" timestamp="1604429175027">
+    <state x="180" y="127" width="1086" height="541" key="DiffContextDialog" timestamp="1604430407927">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
-    <state x="180" y="127" width="1086" height="541" key="DiffContextDialog/80.27.1286.741@80.27.1286.741" timestamp="1604429175027" />
+    <state x="180" y="127" width="1086" height="541" key="DiffContextDialog/80.27.1286.741@80.27.1286.741" timestamp="1604430407927" />
     <state x="212" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1604427018106">
       <screen x="80" y="27" width="1286" height="741" />
     </state>
