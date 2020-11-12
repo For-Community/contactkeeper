@@ -2,6 +2,7 @@ node_modules/
 config
 
 .idea
+.idea/workspace.xml
 
 /client/build
 
