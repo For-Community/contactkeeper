@@ -9,12 +9,14 @@ import Login from "./components/Auth/Login";
 
 import ContactState from "./context/contact/ContactState";
 import AuthState from "./context/auth/AuthState";
+import AlertState from "./context/alert/AlertState";
 import "./App.css";
 
 const App = () => {
   return (
-      <AuthState>
-        <ContactState>
+    <AuthState>
+      <ContactState>
+        <AlertState>
           <Router>
             <Fragment>
               <Navbar />
@@ -28,8 +30,9 @@ const App = () => {
               </div>
             </Fragment>
           </Router>
-        </ContactState>
-      </AuthState>
+        </AlertState>
+      </ContactState>
+    </AuthState>
   );
 };
 
