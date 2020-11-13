@@ -17,6 +17,12 @@ const Navbar = ({ title, icon }) => {
           <Link to="/about">About</Link>
         </li>
         <li>
+          <Link to="/register">Register</Link>
+        </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
+        <li>
           <a href="https://github.com/stephin007/contactkeeper" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
         </li>
       </ul>
