@@ -1,6 +1,7 @@
 import {
     SET_ALERT,
-    REMOVE_ALERT
+    REMOVE_ALERT,
+    CLEAR_ERRORS
 } from "../types"
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -14,6 +15,12 @@ export default (state, action) => {
 
         case REMOVE_ALERT:
             return state.filter(alert => alert.id !== action.payload)
+
+        case CLEAR_ERRORS:
+            return {
+                ...state,
+                error: null
+            }    
         
         default : 
         return state
