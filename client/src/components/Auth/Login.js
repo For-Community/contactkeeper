@@ -1,10 +1,24 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import AlertContext from "../../context/alert/alertContext";
+import AuthContext from "../../context/auth/authContext";
 
-const Login = () => {
+const Login = (props) => {
   const alertContext = useContext(AlertContext);
+  const authContext = useContext(AuthContext);
 
   const { setAlert } = alertContext;
+  const {login, error, clearErrors, isAuthenticated} = authContext;
+
+  useEffect(()=>{
+    if(isAuthenticated){
+      props.history.push("/")
+    }
+    if(error === "Invalid Credentials"){
+      setAlert(error, "danger")
+      clearErrors()
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [error, isAuthenticated, props.history])
 
   const [user, setUser] = useState({
     email: "",
@@ -14,7 +28,7 @@ const Login = () => {
   const { email, password } = user;
 
   const onChange = (e) => {
-    setUser({ ...user, [e.target.name]: [e.target.value] });
+    setUser({ ...user, [e.target.name]: e.target.value });
   };
 
   const onSubmit = (e) => {
@@ -22,7 +36,10 @@ const Login = () => {
     if (email === "" || password === "") {
       setAlert("Please enter all the fields", "danger");
     } else {
-      console.log("Register Submitted");
+      login({
+        email,
+        password
+      })
     }
   };
 
@@ -35,6 +52,7 @@ const Login = () => {
         <div className="form-group">
           <label htmlFor="email">Email Address</label>
           <input 
+            id = "email"
             type="text" 
             name="email" 
             value={email} 
@@ -44,6 +62,7 @@ const Login = () => {
         <div className="form-group">
           <label htmlFor="password">Password</label>
           <input
+            id = "password"
             type="password"
             name="password"
             value={password}
