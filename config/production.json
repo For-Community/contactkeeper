@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://Stephin123:root12345@cluster0.xoipz.mongodb.net/<dbname>?retryWrites=true&w=majority" ,
+    "jwtSecret": "lkjhgfdsa"
+  }
+  
