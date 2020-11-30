@@ -5,7 +5,8 @@ import {
     DELETE_CONTACT,
     FILTER_CONTACTS,
     SET_CURRENT,
-    UPDATE_CONTACT
+    UPDATE_CONTACT,
+    CONTACT_ERROR
 } from "../types";
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -56,7 +57,12 @@ export default (state, action) => {
                 ...state,
                 filtered: null,
             };
-
+        
+        case CONTACT_ERROR:
+            return{
+                ...state,
+                error: action.payload 
+            }
 
         default:
             return state;
